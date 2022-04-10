@@ -1,0 +1,36 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "worker.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "/images/icon_128.png",
+         "16": "/images/icon_16.png",
+         "32": "/images/icon_32.png",
+         "48": "/images/icon_48.png"
+      },
+      "default_title": "Captcha solver"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content/jimp.js", "content/tf.js", "content/model_cs.js", "content/model_mn.js", "content/hcaptcha.js" ],
+      "matches": [ "https://*.hcaptcha.com/captcha/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Solves hCAPTCHA challenges using deep neural networks.",
+   "icons": {
+      "128": "/images/icon_128.png",
+      "16": "/images/icon_16.png",
+      "32": "/images/icon_32.png",
+      "48": "/images/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo4AoQzDX9Ck81qOqkv7cR8O32hCjos5QSB7WVmqVolKDREboJRqg6AMJCmtLW0kFZtDZQG9CVex1oVnikDk54hfsjJwdCUIlSfEORHqyO/GSGAqbWrx7xkPvnzl/8q2k3mO80VYfuJzPQaFOPcBbbt8hHops6kTK5tbPIZMZGiaxxfC1ZnxSmXBg4MY3Rp1z4g13QTyzr4zHbwmLKDzSGRUeDv8pI41iT/A2vMPS33nrTBERNzNaiqY3vGxbZXiNh022+Mp/YbqH2G0sdTVTPc9LiLeYt+bug0AI4fsnB3FEEpGNbmSGBoh2xsTkG8Zs6QbR6EC2fM8Xwtz4BVJsoQIDAQAB",
+   "manifest_version": 2,
+   "name": "hCaptcha Solver",
+   "permissions": [ "cookies", "storage", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.1",
+   "web_accessible_resources": [ "model_cs/*", "model_mn/*" ]
+}
