@@ -3,7 +3,7 @@ function sleep(ms) {
 }
 
 const setTitle = require("node-bash-title");
-setTitle("SkyMagaza Token Gen");
+setTitle("xlorienull");
 const fs = require("fs");
 async function main() {
   console.clear();
