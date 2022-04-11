@@ -1,5 +1,5 @@
 echo off
-title token generator
+title xlorienull token generator
 color e
 cls
 :a
