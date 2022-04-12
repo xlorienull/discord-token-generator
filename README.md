@@ -5,17 +5,14 @@ Selam, sistem şu şekilde çalışıyor: Otomatik bir şekilde `10` tane taray�
 
 # ❓ Projeyi nasıl aktifleştiririm?
 
-> İlk adım: Konsolu açın ve modülleri indirmek için şunu yazın:
-```
-npm install
-```
-> İkinci adım: konsolu açın ve proje aktifleştirmek için şunu yazın:
-```
-npm run
-```
+> İlk adım: `install.bat` dosyasını çalıştırın ve çalıştırdıktan sonra otomatik bir şekilde modüller inecektir.
+
+> İkinci adım: `start.bat` dosyasını çalıştırın ve çalıştırdıktan sonra otomatik bir şekilde proje aktif olacaktır.
 
 # 🤔Proje yapımı hakkında
 Proje alıntıdır. Tarafımca düzenlenmiştir ve `bilgilendirme` kısmında yazılan bazı şeyler projeye uygulanmıştır. Captcha sistemini biz yaptık. Alıntı yaptığımız proje'de captcha çalışmiyordu ve `add-ons/captcha-system/1.3.1_0` dosyasına göz atıp bakarsanız, bizim yaptığımızı anlamış olursunuz.
+
+
 
 # 💻 Sosyal medya hesaplar
 - [YouTube](https://www.youtube.com/channel/UCi1mTrpqsvmgsMUJMosVPmQ)
