@@ -15,8 +15,6 @@ npm run
 # 🤔Proje yapımı hakkında
 Proje alıntıdır. Tarafımca düzenlenmiştir ve `bilgilendirme` kısmında yazılan bazı şeyler projeye uygulanmıştır. Captcha sistemini biz yaptık. Alıntı yaptığımız proje'de captcha çalışmiyordu ve `add-ons/captcha-system/1.3.1_0` dosyasına göz atıp bakarsanız, bizim yaptığımızı anlamış olursunuz.
 
-# 
-
 # 💻 Sosyal medya hesaplar
 - [YouTube](https://www.youtube.com/channel/UCi1mTrpqsvmgsMUJMosVPmQ)
 - [Twitter](https://twitter.com/@xlorienull)
