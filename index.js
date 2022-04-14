@@ -371,7 +371,7 @@ async function main() {
       };
 
   } else if (choice == 2) {
-      console.log("Yard�m almak i�in ! Enis#0001 Ekleyerek Yard�m Alabilirsiniz");
+      console.log("Yard�m almak i�in xlorienull#1851 Ekleyerek Yard�m Alabilirsiniz");
       let reactionChoice = prompt("[" + "?".brightBlue + "]>");
       reactionChoice = main();
   } else if (choice == 3) {
